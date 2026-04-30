@@ -12,14 +12,19 @@
 
 ## 執行方式
 
+環境需求：
+- Python 3.11
+- 依賴檔案：`requirement.txt`
+
+### 1. 安裝套件
+
 ```powershell
-conda run -n MIP python edge_detection.py
+pip install -r requirement.txt
 ```
 
-或先啟用環境再執行：
+### 2. 執行邊緣偵測
 
 ```powershell
-conda activate MIP
 python edge_detection.py
 ```
 
